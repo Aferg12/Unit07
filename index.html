@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>07 Pizza Emporium</title>
+    <link href="CSS/styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <h1 id="title"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+
+    <main>
+        <h1>Pizza Order Form</h1>
+        <h2>What I learned</h2>
+
+        <ul id="objectives">
+
+            <li>Create an object literal with properties and methods</li>
+            <li>Set the properties in an object.</li>
+            <li>Acess the properties in an object.</li>
+            <li>Access the methods in an object.</li>
+            <li>Use math operators.</li>
+            <li>Use template literals.</li>
+            <li>Use querySelector and textContent to dynamically change the text on the screen.</li>
+
+        </ul>
+    
+        <h1 class="h1order">Crust Options</h1>
+            <div class="radiodiv">
+                
+                <div class="option1">
+                <input type="radio" id="thin" name="crust" value="thin crust" checked>
+                    <label for="Thin Crust">Thin Crust</label>
+                </div>
+
+                <div class="option2">
+                <input type="radio" id="thick" name="crust" value="thick crust">
+                    <label for="Thick Crust">Thick Crust</label>
+                </div>
+            </div>
+
+        <h1 class="h1order">Topping Options</h1>
+            <div class="radiodiv">
+
+                <div class="option1">
+                    <input type="radio" id="sausage" name="topping" value="sausage">
+                    <label for="sausage">Sausage</label>
+                </div>
+                
+                <div class="option2">
+                    <input type="radio" id="pepperoni" name="topping" value="pepperoni" checked>
+                    <label for="pepperoni">Pepperoni</label>
+                </div>
+                
+                
+            </div>
+
+        <h1 class="h1order">Size Options</h1>
+            <div class="radiodiv">
+
+                <div class="option1">
+                    <input type="radio" id="small" name="size" value="small" checked>
+                    <label for="small">Small</label>
+                </div>
+                
+                <div class="option2">
+                    <input type="radio" id="large" name="size" value="large">
+                    <label for="large">Large</label>
+                </div>
+                
+                
+            </div>  
+
+
+        <h1 class="h1order">Place Order</h1>
+           <button id="order">Create Pizza</button> 
+
+
+
+
+        <h1 class="h1order">Shopping List</h1>
+            <button id="makeList">Create List</button> 
+ 
+
+
+
+        <h1 class="h1order">Messages to User</h1>
+            <div id="feedback">
+                
+            </div> 
+
+
+    </main>
+
+    
+    <footer>
+        <p>Assignment for DGM 2760 by Abigail Fergus</p>
+    </footer>
+    <script type="text/javascript" src="JS/main.js"></script>
+</body>
+
+</html>

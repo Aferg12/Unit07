@@ -1,0 +1,91 @@
+body {
+    margin-top:0;
+    margin-bottom:0;
+}
+header {
+    background-image: url(../Images/istockphoto-1181651561-612x612.jpg);
+    height:18rem;
+    max-width:960px;
+    margin:auto;
+    margin-top:0;
+    padding-top:0;
+}
+h1, h2 {
+    color: lightblue;
+}
+header h1 {
+    margin-bottom:0;
+    padding-top:2rem;
+    margin-left:2rem;
+    font-size:2.8rem;
+    margin-top:0;
+    color: white;
+    
+}
+header h2 {
+    margin:0;
+    padding:0;
+    margin-left:2rem;
+    color: white;
+}
+
+main {
+    margin:auto;
+    max-width: 960px;
+}
+
+button {
+    height:3rem;
+    width:15rem;
+    background-color:rgb(238, 157, 81);
+    color:black;
+    border:rgb(87, 0, 0) solid 1px;
+    font-weight:600;
+    font-size:1.1rem;
+    border-radius:8px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+main h2 {
+    color:rgb(0, 223, 156);
+}
+main article h2 {
+    color:rgb(119, 52, 226);
+    text-align: center;
+    margin-bottom:0;
+}
+
+main h1.h1order {
+    color: rgb(0, 223, 156);
+    font-size:1.5rem;
+}
+main div.radiodiv {
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:1rem;
+    display:flex;
+}
+
+div.option1 {
+    margin-right:2rem;
+}
+label {
+    font-size: 1.4rem;
+}
+
+main div#feedback {
+    background: rgb(229, 255, 228);
+    height:4rem;
+    margin-bottom:4rem;
+    font-size:1.2rem;
+}
+
+footer {
+    margin:auto;
+    max-width:960px;
+    text-align: center;
+    background-color:lightblue;
+    padding:1rem;
+    
+}
